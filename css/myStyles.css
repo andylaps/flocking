@@ -1,0 +1,12 @@
+
+  body {
+  	background-color: #5a5a5a;
+  	font-family: helvetica;
+  	padding-left: 30px;
+  }
+
+	h2, p {
+		color:white;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
