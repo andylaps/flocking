@@ -1,5 +1,3 @@
-// Seeking a target (multiple Things, all identical except for 
-// starting position, chasing the mouse)
 // This example of Craig Reynolds'steering formula in action 
 // (steering = desired-velocity) is from Dan Shiffman's 
 // Processing book, The Nature of Code and modified for p5.js by al.  
@@ -12,7 +10,6 @@ var gStaWt = 2;
 var gTarWt = 6;
 var gLocalityRad = 100;
 var gSepMult = 4.5;
-
 
 var gThings = [];
 
@@ -28,7 +25,6 @@ function setup() {
 }
 
 function draw() {	
-	//gTarget = createVector(width/2,height/2);
 	gTarget = createVector(mouseX,mouseY);
 	background("#fefefe");
 	for (var i = 0; i < gThings.length; i++) {

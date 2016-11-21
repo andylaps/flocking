@@ -1,6 +1,6 @@
 // Seeking the target (mouse position) 
 // attempts to build in random size and its effect
-// on accelaration based on size = mass. 
+// on acceleration based on size = mass. 
 // al 12 November 2016
 
 var gThingWorld = [];
