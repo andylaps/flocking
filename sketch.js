@@ -1,4 +1,6 @@
 // First look at the constructor function 
+// Makes a random walk of blobs around the canvas
+// the tail of which is of limted and settable length
 // al 12 November 2016
 
 
